@@ -25,7 +25,7 @@ public class Principal {
 
         //Adicionando na LinkedList
         for (int i = 0; i < qtd; i++) {
-            String nome_mat = JOptionPane.showInputDialog("Qual é a" + (i+1) + "ª materia que você quer adicionar");
+            String nome_mat = JOptionPane.showInputDialog("Qual é a " + (i+1) + "ª materia que você quer adicionar");
             a.addMateria(nome_mat);
         }
         //Visu

@@ -22,10 +22,10 @@ public class Materia {
     }
     
     public void buscaMateria(String nome_busca){
-        String mensagem = "A materia " + nome_busca + "não está na lista";
+        String mensagem = "A materia " + nome_busca + " não está na lista";
         for(String a : mat){
             if(a.equals(nome_busca)){
-                mensagem = "A materia" + nome_busca + "foi encontrada na lista";
+                mensagem = "A materia " + nome_busca + " foi encontrada na lista";
             }
     }
         JOptionPane.showMessageDialog(null,mensagem);
@@ -37,5 +37,7 @@ public class Materia {
     void delMateria(String deleta) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    
    }
 
